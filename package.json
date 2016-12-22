@@ -1,7 +1,7 @@
 {
-  "name": "relay-insta",
+  "name": "relay_graphcool",
   "version": "1.0.0",
-  "description": "Instagram Clone with Relay",
+  "description": "Relay GraphCool Skeleton",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "graphql": {
     "request": {
-      "url": "http://127.0.0.1:3000/graphql/"
+      "url": "https://api.graph.cool/relay/v1/[__APIENDPOINT__]"
     }
   },
   "dependencies": {
@@ -47,6 +47,6 @@
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
   },
-  "author": "",
+  "author": "Donovan Hiland",
   "license": "ISC"
 }
